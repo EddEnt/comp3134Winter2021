@@ -1,0 +1,12 @@
+1) What is the definition of a server port?
+
+	A server port is
+
+2) What is a server port range?
+
+3) How many bits does the number above represent?
+
+bits 2 ^ N 1 bit = 2
+
+4) State 10 common server ports
+
