@@ -1,0 +1,28 @@
+-- Seneca College --
+
+IP Address: 34.243.56.93
+Geolocation: IE (Ireland), 07, Dublin, D02 Dublin
+
+
+-- Toyota --
+
+IP Address: 207.236.211.179
+Geolocation: CA (Canada), N/A, N/A, N/A N/A
+
+
+-- Honda --
+
+IP Address: 209.15.210.64
+Geolocation: CA (Canada), ON, Ontario, M8W Toronto
+
+
+-- Home Depot --
+
+IP Address: 23.5.231.38
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge
+
+
+-- Canadian Tire --
+
+IP Address: 205.210.17.179
+Geolocation: CA (Canada), ON, Ontario, M6H Toronto

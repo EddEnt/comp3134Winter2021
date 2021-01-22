@@ -1,0 +1,15 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# traceroute store.steampowered.com
+traceroute to store.steampowered.com (23.192.59.22), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.6.95 (10.78.6.95)  14.130 ms 10.78.4.2 (10.78.4.2)  14.056 ms  14.061 ms
+ 3  138.197.249.78 (138.197.249.78)  1.396 ms 138.197.249.90 (138.197.249.90)  1.817 ms 138.197.249.86 (138.197.249.86)  1.499 ms
+ 4  zayo.ip4.torontointernetxchange.net (206.108.35.76)  1.516 ms 138.197.249.71 (138.197.249.71)  1.286 ms  1.676 ms
+ 5  * zayo.ip4.torontointernetxchange.net (206.108.35.76)  1.348 ms  1.485 ms
+ 6  * * *
+ 7  208.185.22.10.IPYX-074089-910-ZYO.zip.zayo.com (208.185.22.10)  32.355 ms  32.400 ms  32.339 ms
+ 8  * 208.185.22.10.IPYX-074089-910-ZYO.zip.zayo.com (208.185.22.10)  32.264 ms *
+ 9  * * *
+10  * * *
+       ...
+30  * * *
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

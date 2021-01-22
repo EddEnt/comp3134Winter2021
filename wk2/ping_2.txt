@@ -1,0 +1,12 @@
+C:\Users\Edward>ping 178.128.235.233
+
+Pinging 178.128.235.233 with 32 bytes of data:
+Reply from 178.128.235.233: bytes=32 time=16ms TTL=55
+Reply from 178.128.235.233: bytes=32 time=17ms TTL=55
+Reply from 178.128.235.233: bytes=32 time=10ms TTL=55
+Reply from 178.128.235.233: bytes=32 time=11ms TTL=55
+
+Ping statistics for 178.128.235.233:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 17ms, Average = 13ms

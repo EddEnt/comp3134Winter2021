@@ -1,0 +1,54 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap www.paradoxplaza.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 20:51 UTC
+Nmap scan report for www.paradoxplaza.com (104.16.241.242)
+Host is up (0.0011s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 15.52 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1500 www.algonquincollege.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 20:53 UTC
+Nmap scan report for www.algonquincollege.com (54.86.119.60)
+Host is up (0.023s latency).
+rDNS record for 54.86.119.60: ec2-54-86-119-60.compute-1.amazonaws.com
+
+PORT     STATE    SERVICE
+1500/tcp filtered vlsi-lm
+
+Nmap done: 1 IP address (1 host up) scanned in 11.39 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 800-2800 www.netacad.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 20:56 UTC
+Nmap scan report for www.netacad.com (23.1.198.146)
+Host is up (0.012s latency).
+Other addresses for www.netacad.com (not scanned): 2600:140a:0:5a7::1e70 2600:140a:0:588::1e70
+rDNS record for 23.1.198.146: a23-1-198-146.deploy.static.akamaitechnologies.com
+All 2001 scanned ports on www.netacad.com (23.1.198.146) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 52.44 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F www.wikitionary.org
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 20:59 UTC
+Nmap scan report for www.wikitionary.org (72.52.179.175)
+Host is up (0.038s latency).
+rDNS record for 72.52.179.175: lb01.parklogic.com
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.49 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
