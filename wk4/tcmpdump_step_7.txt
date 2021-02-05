@@ -1,0 +1,19 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+18:09:51.617928 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 508336778:508336822, ack 444530829, win 501, length 44
+18:09:51.618066 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 44:152, ack 1, win 501, length 108
+18:09:51.618154 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 152:188, ack 1, win 501, length 36
+18:09:51.634158 IP cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367 > 178.128.235.233.ssh: Flags [.], ack 44, win 1024, length 0
+18:09:51.634209 IP cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367 > 178.128.235.233.ssh: Flags [.], ack 188, win 1029, length 0
+18:10:09.490084 IP 49.88.112.67.15970 > 178.128.235.233.ssh: Flags [S], seq 526234597, win 29200, options [mss 1460,sackOK,TS val 1105772343 ecr 0,nop,wscale 7], length 0
+18:10:09.490172 IP 178.128.235.233.ssh > 49.88.112.67.15970: Flags [S.], seq 2229038385, ack 526234598, win 65160, options [mss 1460,sackOK,TS val 3964314560 ecr 1105772343,nop,wscale 7], length 0
+18:10:10.489959 IP 49.88.112.67.15970 > 178.128.235.233.ssh: Flags [S], seq 526234597, win 29200, options [mss 1460,sackOK,TS val 1105772593 ecr 0,nop,wscale 7], length 0
+18:10:10.490046 IP 178.128.235.233.ssh > 49.88.112.67.15970: Flags [S.], seq 2229038385, ack 526234598, win 65160, options [mss 1460,sackOK,TS val 3964315560 ecr 1105772343,nop,wscale 7], length 0
+18:10:10.499197 IP cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367 > 178.128.235.233.ssh: Flags [P.], seq 1:37, ack 188, win 1029, length 36
+18:10:10.499637 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 188:224, ack 37, win 501, length 36
+18:10:10.561173 IP cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367 > 178.128.235.233.ssh: Flags [.], ack 224, win 1029, length 0
+18:10:10.730527 IP 49.88.112.67.15970 > 178.128.235.233.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 1105772653 ecr 3964315560], length 0
+18:10:10.730629 IP 49.88.112.67.15970 > 178.128.235.233.ssh: Flags [P.], seq 1:16, ack 1, win 229, options [nop,nop,TS val 1105772653 ecr 3964315560], length 15
+18:10:10.753276 IP 178.128.235.233.ssh > 49.88.112.67.15970: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 3964315823 ecr 1105772653], length 41
+18:10:10.987006 IP 49.88.112.67.15970 > 178.128.235.233.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 1105772717 ecr 3964315823], length 0
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

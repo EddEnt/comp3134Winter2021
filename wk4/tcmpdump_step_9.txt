@@ -1,0 +1,34 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:12:11.562660 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 511443826:511443934, ack 444536321, win 501, length 108
+18:12:11.562930 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 108:144, ack 1, win 501, length 36
+18:12:11.563022 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 144:252, ack 1, win 501, length 108
+18:12:11.988250 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 666764:666968, ack 397, win 501, length 204
+18:12:11.988391 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 666968:667172, ack 397, win 501, length 204
+18:12:11.988557 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 667172:667376, ack 397, win 501, length 204
+18:12:11.988751 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 667376:667580, ack 397, win 501, length 204
+18:12:11.988856 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 667580:667784, ack 397, win 501, length 204
+18:12:11.988948 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 667784:667988, ack 397, win 501, length 204
+18:12:11.989068 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 667988:668192, ack 397, win 501, length 204
+18:12:11.989270 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 668192:668396, ack 397, win 501, length 204
+18:12:11.989384 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 668396:668600, ack 397, win 501, length 204
+18:12:11.989496 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 668600:668804, ack 397, win 501, length 204
+18:12:11.989592 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 668804:669008, ack 397, win 501, length 204
+18:12:11.989712 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 669008:669212, ack 397, win 501, length 204
+18:12:11.989849 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 669212:669416, ack 397, win 501, length 204
+18:12:11.989948 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 669416:669620, ack 397, win 501, length 204
+18:12:11.990148 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 669620:669824, ack 397, win 501, length 204
+18:12:11.990301 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 669824:670028, ack 397, win 501, length 204
+18:12:11.990430 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 670028:670232, ack 397, win 501, length 204
+18:12:11.990565 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 670232:670436, ack 397, win 501, length 204
+18:12:11.990704 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 670436:670640, ack 397, win 501, length 204
+18:12:11.990832 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 670640:670844, ack 397, win 501, length 204
+18:12:11.991060 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 670844:671048, ack 397, win 501, length 204
+18:12:11.991177 IP 178.128.235.233.ssh > cpe688f2e17b093-cm688f2e17b090.cpe.net.cable.rogers.com.55367: Flags [P.], seq 671048:671252, ack 397, win 501, length 204
+^C
+3606 packets captured
+3630 packets received by filter
+6 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ^C
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
